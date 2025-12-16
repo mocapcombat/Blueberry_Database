@@ -95,7 +95,7 @@ let objects = names.map((name, i) => ({
 
 let sortState = {
   key: null,      
-  direction: 1    
+  direction: 1
 };
 
 function render() {
