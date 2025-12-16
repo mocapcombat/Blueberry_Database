@@ -50,15 +50,15 @@ body {
   font-size: 15px;
 }
 
-
-
+.underline-on-hover:hover {
+    text-decoration: underline;
+}
 
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr minmax(150px, 450px);
   height:fit-content
 }
-
 
 .header {
   background-color: rgb(31, 31, 67);
