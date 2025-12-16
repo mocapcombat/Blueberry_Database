@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("assets/fonts/times.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("assets/fonts/times italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("assets/fonts/times bold.woff2") format("woff2");
+  font-weight: 400;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("assets/fonts/times bold it.woff2") format("woff2");
+  font-weight: 400;
+  font-style: bold, italic;
+}
