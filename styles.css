@@ -21,19 +21,20 @@ body {
   height: 100vh;
   background-color: rgb(31, 31, 67);
   color: white;
-
+  padding: 10px;
+  padding-top: 15px;
   display: flex;
   flex-direction: column;
-
-  padding: 10px;
   box-sizing: border-box;
+}
+
+.description p:first-child {
+  margin: 0;
 }
 
 .description-content {
   overflow-y: auto;
   flex: 1 1 auto;
-  padding-right: 5px;
-
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
@@ -44,7 +45,7 @@ body {
 
 .description-footer {
   margin-top: auto; 
-  padding-top: 20px;
+  padding-top: 10px;
   text-align: center;
   line-height: 1.2;
   font-size: 15px;
@@ -60,11 +61,13 @@ body {
   background-color: rgb(31, 31, 67);
   color:white;
   position: sticky;
+  padding: 8px;
   top: 0;
   font-weight: bold;
-  padding: 20px;
   z-index: 1;
+  text-align: center;
 }
+
 .header .underline-on-hover:hover {
   text-decoration: underline;
   text-decoration-thickness: 1.5px;
@@ -88,7 +91,7 @@ body {
 
 .cell.image img {
   width: 100%;
-  max-width: 450px;
+  max-width: 290px;
   height: auto;
   object-fit: contain;
   display: block;
